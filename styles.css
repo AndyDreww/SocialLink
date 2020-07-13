@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: #e3e3e3
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#heart {
+    color: pink;
+}
+
+#heart:hover {
+    color: #3e3e3e;
+    cursor: move;
+}
+
+header {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
+    color: #7e7e7e;
+    overflow: auto;
+}
+
+h1 {
+    float: left;
+    padding: 20px;
+    color: #7e7e7e;
+
+}
+
+#submit {
+    display: inline-block;
+    top: 20px;
+    position: relative;
+    padding: 7px 15px;
+    background-color: #d4f3ff;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    transition: .7s;
+    /* border: 1px solid #889da5; */
+}
+
+#submit:hover {
+    background-color: #889da5;
+    color: #fff;
+}
+
+.right {
+    position: relative;
+    float: right;
+}
+
+#form-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#link-form {
+    text-align: center;
+}
+
+#link-form > input {
+    padding: 10px;
+    margin: 0;
+}
+
+#add {
+    background-color: #61abff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+#add:hover {
+    background-color: #3d6a9e;
+}
+
+#success {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #c2ffd6;
+    color: #415447;
+    border: 1px solid #415447;
+}
+
+#warning {
+    margin: 20px auto;
+    background-color: rgb(255, 124, 124);
+    color: #3e3e3e;
+    font-size: 16px;
+    letter-spacing: .25em;
+}
+
+.warning-active {
+    border: 1px solid rgb(161, 80, 80);
+    padding: 10px;
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.link-block {
+    background: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    overflow: auto;
+}
+
+.link-block:hover {
+    box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+dt, dd {
+    position: relative;
+    top: 20px;
+}
+
+dt > a {
+    text-decoration: none;
+    color: #000;
+}
+
+dt > a:hover {
+    text-decoration: underline;
+    cursor: move;
+}
+
+#url-title {
+    color: rgb(84, 189, 224);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+dd {
+    font-size: 12px;
+}
+
+.delete {
+    float: right;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    background: rgb(255, 104, 104);
+    color: #fff;
+    padding: 10px 15px;
+    transition: 2s;
+}
+
+.delete:hover {
+    cursor: pointer;
+    letter-spacing: 0.25em;
+    background-color: rgb(189, 74, 74);
+}
