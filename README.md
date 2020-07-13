@@ -8,4 +8,4 @@ It is a social link sharing page, in which you can dynmically add or remove link
 
 ## Created By
 
-Andrew - [Github] (http://github.com/AndyDreww)
+Andrew - [Github](http://github.com/AndyDreww)
